@@ -30,26 +30,15 @@
 
 ## ⚙️ Architecture
 
-WhatTheFilm/
-│
-├── backend/ (Django project)
-│ ├── wtf/ (main Django app)
-│ ├── api/ (REST API endpoints)
-│ ├── users/ (user registration, authentication, and score storage)
-│ ├── db.sqlite3 (or PostgreSQL database)
-│ └── manage.py
-│
-├── frontend/ (React app)
-│ ├── src/
-│ │ ├── components/ (PosterImage, GuessInput, Counter, etc.)
-│ │ ├── App.tsx
-│ │ ├── api.ts (API communication layer)
-│ │ └── styles/
-│ ├── public/index.html
-│ └── vite.config.ts
-│
-├── README.md
-└── .env (environment variables)
+| Folder           | Description                              |
+| ---------------- | ---------------------------------------- |
+| `backend/`       | Django project for API and user handling |
+| `backend/api/`   | REST API endpoints for game logic        |
+| `backend/users/` | User authentication and score tracking   |
+| `frontend/`      | React frontend (UI and API integration)  |
+| `frontend/src/`  | React components and business logic      |
+| `.env`           | Environment variables for config         |
+| `README.md`      | Project documentation                    |
 
 - **Frontend** fetches movie posters and submits user guesses via API calls to the backend.
 - **Backend** serves poster metadata, validates guesses, and manages user accounts and scores.
