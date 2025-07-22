@@ -1,0 +1,19 @@
+.counter-position {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 40px;
+}
+
+.counter-block {
+  width: 35px;
+  height: 55px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

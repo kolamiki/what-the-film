@@ -1,0 +1,14 @@
+.blur-boundaries {
+  overflow: hidden;
+  border-radius: 15px;
+  /* image-rendering: pixelated; */
+}
+
+.poster-image {
+  transition: filter 0.2s ease;
+  height: 40vh;
+}
+
+.poster-position {
+  padding: 15px;
+}
